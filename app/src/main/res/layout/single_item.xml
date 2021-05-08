@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/singleLayoutID"
+    android:orientation="vertical"
+    android:background="#7A3D3D"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/singleNameID"
+        android:layout_width="303dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="Papon Sarke"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <TextView
+        android:id="@+id/singleEamilID"
+        android:layout_width="303dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="papon@mail.com"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/singleNameID"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <TextView
+        android:id="@+id/singleBlooDID"
+        android:layout_width="303dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="AB+"
+        android:textColor="#050505"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/singleEamilID"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/singleDepID"
+        android:layout_width="303dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="CSE"
+        android:textColor="#050505"
+        android:textColorLink="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/singleBlooDID"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:background="#EACDCD"
+        android:layout_width="416dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/singleDepID"
+        tools:ignore="MissingConstraints">
+
+    </View>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
